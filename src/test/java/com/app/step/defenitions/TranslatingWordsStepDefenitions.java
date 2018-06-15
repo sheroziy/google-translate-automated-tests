@@ -22,7 +22,7 @@ public class TranslatingWordsStepDefenitions {
 
 	@When("^I type words$")
 	public void i_type_words() {
-	    
+	    //adding cooments in to alpha
 	}
 
 	@Then("^I should see translated words$")
