@@ -23,6 +23,7 @@ public class TranslatingWordsStepDefenitions {
 	@When("^I type words$")
 	public void i_type_words() {
 	    //Adding commit in to test branch
+		//Adding commit in to feature branch
 	}
 
 	@Then("^I should see translated words$")
