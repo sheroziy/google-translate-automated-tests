@@ -1,5 +1,13 @@
 package com.app.step.defenitions;
 
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.Select;
+
+import com.app.pages.GoogleTranslatePage;
 import com.app.utilities.BrowserUtils;
 import com.app.utilities.ConfigurationReader;
 import com.app.utilities.Driver;
@@ -9,9 +17,9 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
 public class TranslatingWordsStepDefenitions {
-
+	GoogleTranslatePage page = new GoogleTranslatePage();
 	
-	//new comment new comment
+	
 	
 	@Given("^I'm on Google translate page$")
 	public void i_m_on_Google_translate_page() {
@@ -21,15 +29,15 @@ public class TranslatingWordsStepDefenitions {
 	}
 
 	@When("^I type words$")
-	public void i_type_words() {
+	public void i_type_words() throws InterruptedException {
+		BrowserUtils.waitForVisibility(page.inputBox, 5);
+	    page.inputBox.sendKeys("Car");
+	    new Actions(Driver.getDriver()).click(page.languageOpt).perform();
+	    Thread.sleep(2000);
+	   
+	    Driver.getDriver().findElement(By.xpath("(//div[.='Russian'])[1]")).click();
 
-	    //Adding commit in to test branch
-		//Adding commit in to feature branch
-		//Adding commit Serik
-		//adding cooments in to alpha
-		//adding comments by Sheroziy
-		//adding comments by Serik
-
+		
 	}
 
 	@Then("^I should see translated words$")
