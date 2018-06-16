@@ -24,6 +24,7 @@ public class TranslatingWordsStepDefenitions {
 	public void i_type_words() {
 	    //Adding commit in to test branch
 		//Adding commit in to feature branch
+		//Adding commit Serik
 	}
 
 	@Then("^I should see translated words$")
