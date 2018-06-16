@@ -27,6 +27,7 @@ public class TranslatingWordsStepDefenitions {
 		//Adding commit in to feature branch
 		//Adding commit Serik
 		//adding cooments in to alpha
+		//adding comments by Sheroziy
 
 	}
 
