@@ -28,6 +28,7 @@ public class TranslatingWordsStepDefenitions {
 		//Adding commit Serik
 		//adding cooments in to alpha
 		//adding comments by Sheroziy
+		//adding comments by Serik
 
 	}
 
