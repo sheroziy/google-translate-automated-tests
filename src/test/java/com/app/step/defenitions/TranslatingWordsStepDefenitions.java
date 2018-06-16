@@ -11,7 +11,7 @@ import cucumber.api.java.en.When;
 public class TranslatingWordsStepDefenitions {
 
 	
-	
+	//new comment new comment
 	
 	@Given("^I'm on Google translate page$")
 	public void i_m_on_Google_translate_page() {
@@ -22,9 +22,12 @@ public class TranslatingWordsStepDefenitions {
 
 	@When("^I type words$")
 	public void i_type_words() {
+
 	    //Adding commit in to test branch
 		//Adding commit in to feature branch
 		//Adding commit Serik
+		//adding cooments in to alpha
+
 	}
 
 	@Then("^I should see translated words$")
