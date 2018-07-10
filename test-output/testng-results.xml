@@ -1,54 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="0" passed="0">
   <reporter-output>
-    <line>
-      <![CDATA[<div "result">I&#x27;m on Google translate page (PASSED : 3s)</div>]]>
-    </line>
-    <line>
-      <![CDATA[<div "result">I type words (PASSED : 0s)</div>]]>
-    </line>
-    <line>
-      <![CDATA[<div "result">I should see translated words (PASSED : 0s)</div>]]>
-    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="3234" started-at="2018-06-14T00:02:41Z" finished-at="2018-06-14T00:02:44Z">
+  <suite name="Default suite" duration-ms="358" started-at="2018-06-16T22:35:06Z" finished-at="2018-06-16T22:35:06Z">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runners.CukesRunner@20398b7c]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runners.CukesRunner@56235b8e]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Default test" duration-ms="3234" started-at="2018-06-14T00:02:41Z" finished-at="2018-06-14T00:02:44Z">
+    <test name="Default test" duration-ms="358" started-at="2018-06-16T22:35:06Z" finished-at="2018-06-16T22:35:06Z">
       <class name="com.app.runners.CukesRunner">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.app.runners.CukesRunner@20398b7c]" name="setUpClass" is-config="true" duration-ms="164" started-at="2018-06-14T00:02:41Z" finished-at="2018-06-14T00:02:41Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.app.runners.CukesRunner@56235b8e]" name="setUpClass" is-config="true" duration-ms="292" started-at="2018-06-16T22:35:06Z" finished-at="2018-06-16T22:35:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runners.CukesRunner@20398b7c]" name="runScenario" duration-ms="3022" started-at="2018-06-14T00:02:41Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-06-14T00:02:44Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Translate to Russian"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Translating words"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[<div "result">I&#x27;m on Google translate page (PASSED : 3s)</div>]]>
-            </line>
-            <line>
-              <![CDATA[<div "result">I type words (PASSED : 0s)</div>]]>
-            </line>
-            <line>
-              <![CDATA[<div "result">I should see translated words (PASSED : 0s)</div>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.app.runners.CukesRunner@20398b7c]" name="tearDownClass" is-config="true" duration-ms="10" started-at="2018-06-14T00:02:44Z" finished-at="2018-06-14T00:02:44Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.app.runners.CukesRunner@56235b8e]" name="tearDownClass" is-config="true" duration-ms="7" started-at="2018-06-16T22:35:06Z" finished-at="2018-06-16T22:35:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

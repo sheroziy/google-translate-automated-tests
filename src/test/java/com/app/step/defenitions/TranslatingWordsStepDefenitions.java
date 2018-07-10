@@ -1,5 +1,8 @@
 package com.app.step.defenitions;
 
+import static org.testng.Assert.assertEquals;
+import static org.testng.Assert.assertTrue;
+
 import java.util.List;
 
 import org.openqa.selenium.By;
@@ -36,12 +39,23 @@ public class TranslatingWordsStepDefenitions {
 	    Thread.sleep(2000);
 	   
 	    Driver.getDriver().findElement(By.xpath("(//div[.='Russian'])[1]")).click();
-
+	    assertEquals(page.outputBox.getText(), "Автомобиль");
 		
 	}
 
 	@Then("^I should see translated words$")
 	public void i_should_see_translated_words() {
+	    
+	}
+	
+	
+	@When("^I type words :$")
+	public void i_type_words(String arg1) {
+	    
+	}
+
+	@Then("^I see transted words\"([^\"]*)\"$")
+	public void i_see_transted_words(String arg1) {
 	    
 	}
 }
